@@ -252,4 +252,10 @@
 
     <!-- Do not translate. Default access point SSID used for tethering -->
     <string name="wifi_tether_configure_ssid_default" translatable="false">Poco F1</string>
+	
+    <!-- Enable dual LTE capability support -->
+    <bool name="config_dual_LTE_capability">true</bool>
+
+    <!-- Whether auto face unlock is enabled by default -->
+    <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
 </resources>
