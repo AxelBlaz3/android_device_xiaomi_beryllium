@@ -258,7 +258,4 @@
 
     <!-- Whether auto face unlock is enabled by default -->
     <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
-
-    <!-- Lawnstep -->
-    <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
 </resources>
