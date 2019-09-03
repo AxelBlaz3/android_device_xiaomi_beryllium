@@ -31,9 +31,9 @@ on boot
     chown cameraserver root /sys/class/thermal/thermal_message/boost
     chmod 0664 /sys/class/thermal/thermal_message/boost
 	
-	# Smart charging permissions
-	chown system system /sys/class/power_supply/battery/input_suspend
-	chmod 0660 /sys/class/power_supply/battery/input_suspend
+	# Smart charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
 
 service displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
     override
